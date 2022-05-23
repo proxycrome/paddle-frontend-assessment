@@ -95,7 +95,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .text {
         font-size: 21px;
     }

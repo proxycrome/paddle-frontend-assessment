@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import { mobile } from '../../responsive';
 
 const Footer = styled.div`
   height: 300px;
@@ -26,6 +27,9 @@ const Semi = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  ${mobile({ 
+    transform: 'translate(-50%, -50%)',
+  })}
 `;
 
 const ComingSoon = () => {
