@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: transparent url('./assets/images/Path_1.png') 0% 0% no-repeat padding-box;;
+  background: #1f0042;
   color: white
 }
 

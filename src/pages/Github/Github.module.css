@@ -1,0 +1,33 @@
+.main {
+    margin: 0 auto;
+}
+
+.GitInfo {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    border: 1px solid #FFFFFF;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.GitInfo img {
+    margin: 0 20px;
+}
+
+.Info {
+    height: 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    margin-right: 10px;
+    padding: 0px 10px;
+}
